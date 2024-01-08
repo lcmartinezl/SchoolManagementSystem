@@ -2,7 +2,7 @@ package beans;
 
 public class Curso {
 
-    private String id;
+    private int id;
     private String nombre;
     private String descripcion;
     private int numeroCreditos;
@@ -11,11 +11,11 @@ public class Curso {
 
     }
 
-    public java.lang.String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(java.lang.String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
